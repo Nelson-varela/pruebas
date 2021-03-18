@@ -10,13 +10,12 @@
 }
 
 body{ 
-    background: url(https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:0px 30px;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@media screen and (min-width: 580px){
+@media screen and (min-width: 2000px){
     body{
 
     background-image:url(https://images.unsplash.com/photo-1593642702909-dec73df255d7?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
